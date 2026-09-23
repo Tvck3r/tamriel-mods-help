@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  /* Wix default breakpoints are coarse (mobile / tablet / desktop), which is
+     why the live site jumps from 1 column to 3. We add an extra small step so
+     the grid can grow 1 -> 2 -> 3 -> 4 instead of 1 -> 3. */
+  --breakpoint-xs: 30rem;
+
+  --color-parchment: #f6f3ec;
+  --color-ink: #16212e;
+  --color-nord: #2f6f9f;
+  --color-nord-dark: #1d4c72;
+  --color-ebony: #3b3550;
+}
+
+html {
+  scroll-behavior: smooth;
+}
